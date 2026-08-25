@@ -39,7 +39,10 @@ veri-val-e1/
 ├── .github/workflows/
 │   └── ci.yml
 ├── docs/evidencias/
-│   └── testes-intellij.png
+│   ├── testes-intellij.png
+│   ├── github-actions.png
+│   ├── codewars.png
+│   └── codewars-submitted.png
 ├── examples/
 │   └── shape.txt
 ├── src/
@@ -101,10 +104,39 @@ dias na página da execução:
 3. localizar **Artifacts** no resumo da execução;
 4. baixar o arquivo `relatorios-junit-...`.
 
-A captura da execução local no IntelliJ está em
-`docs/evidencias/testes-intellij.png`. Depois das demais execuções reais, os
-prints do GitHub Actions e do CodeWars podem ser adicionados à mesma pasta em um
-commit separado. As evidências não devem ser simuladas.
+### Evidências registradas
+
+As capturas abaixo documentam a execução local, a integração contínua e a
+validação oficial da solução. As imagens podem ser expandidas clicando em seus
+títulos.
+
+<details>
+<summary><strong>18 testes aprovados no IntelliJ IDEA</strong></summary>
+
+![Execução local dos testes no IntelliJ](docs/evidencias/testes-intellij.png)
+
+</details>
+
+<details>
+<summary><strong>18 testes aprovados no GitHub Actions</strong></summary>
+
+![Execução dos testes na integração contínua](docs/evidencias/github-actions.png)
+
+</details>
+
+<details>
+<summary><strong>Testes oficiais aprovados no CodeWars</strong></summary>
+
+![Testes oficiais aprovados no CodeWars](docs/evidencias/codewars.png)
+
+</details>
+
+<details>
+<summary><strong>Solução submetida e kata concluído</strong></summary>
+
+![Submissão final da solução no CodeWars](docs/evidencias/codewars-submitted.png)
+
+</details>
 
 ### Aplicação local
 
